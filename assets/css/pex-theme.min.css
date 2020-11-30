@@ -3265,6 +3265,10 @@ body.body .text-valid {
     margin: 0
 }
 
+.section-alt-head h2 strong {
+    color: #ccc;
+}
+
 .section-head p,
 .section-alt-head p {
     padding-top: 5px;
