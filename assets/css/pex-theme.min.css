@@ -3266,8 +3266,12 @@ body.body .text-valid {
 }
 
 .section-alt-head h2 strong {
-    color: #ccc;
+    color: #629af5;
 }
+.section-alt-head h2 a strong{
+    color: #efff00;
+}
+
 
 .section-head p,
 .section-alt-head p {
@@ -7714,14 +7718,4 @@ a.item-label:hover {
     .user-dashboard-orders-list .user-dashboard-item-number {
         width: 120px
     }
-}#contact-box{position: absolute;left:430px;top:200px;}
-#btnContact {	background: #00DEFF; float: left;	padding: 15px; cursor: pointer;border-bottom-left-radius:5px;border-top-left-radius:5px;} 
-#frmContact {background:#FAF8F8;padding:15px;display:none;float:right;}
-#frmContact div{margin-bottom: 15px}
-#frmContact div label{margin-left: 5px}
-.demoInputBox{padding:10px; border:#F0F0F0 1px solid; border-radius:4px;}
-.error{background-color: #FF6600;border:#AA4502 1px solid;padding: 5px 10px;color: #FFFFFF;border-radius:4px;}
-.success{background-color: #12CC1A;border:#0FA015 1px solid;padding: 5px 10px;color: #FFFFFF;border-radius:4px;}
-.info{font-size:.8em;color: #FF6600;letter-spacing:2px;padding-left:5px;}
-.btnAction{background-color:#2FC332;border:0;padding:10px 40px;color:#FFF;border:#F0F0F0 1px solid; border-radius:4px;}
-.txt-content{border-left: #F0F0F0 1px solid;padding: 5px 20px; margin-top: 100px;}
+}
