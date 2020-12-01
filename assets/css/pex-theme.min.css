@@ -7719,3 +7719,112 @@ a.item-label:hover {
         width: 120px
     }
 }
+.gfq-wrap {
+	z-index: 9999999;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+}
+.gfq-badge {
+	background: #71C28E; /*Change this colour to change the circle*/
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.1);
+	transition: all 0.1s ease-in-out;
+	transform: scale(1.0);
+	float: right;
+}
+.gfq-badge img {
+	position: relative;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    border: none!important;
+    width: 80%!important;
+}
+.gfq-badge:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.gfq-panel {
+	width: 373px; /*Panel width*/
+	height: auto; /*Panel height*/
+	max-width: 400px; /*Mac Panel width*/
+	max-height: 800px; /*Max Panel height*/
+	background: #F9FAFA;
+	box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.10);
+	position: absolute;
+	bottom: 40px;
+	right: 0px;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+	border-radius: 4px;
+	overflow: hidden;
+    padding:30px;
+  border:1px solid #D9E0E3;
+}
+.panel-active {
+	bottom: 80px;
+	opacity: 100;
+}
+.gfield.no-label > .gfield_label {
+    display: none;
+}
+.gfq-panel input[type="submit"] {
+    width:100% 
+}
+@media (min-width: 768px){
+    .md\:text-lg {
+        font-size: 1.125rem;
+    }
+    .md\:w-128 {
+        width: 20rem;
+    }
+    .md\:text-4xl {
+        font-size: 2.25rem;
+    }
+}
+.text-gray-600 {
+    color: #718096;
+}
+.text-3xl {
+    font-size: 1.875rem;
+}
+.py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.py-6 input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-width: 1px;
+    border-radius: .25rem;
+    width: 100%;
+    padding: .5rem .75rem;
+    color: #718096;
+    line-height: 1.25;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+.py-6 textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-width: 1px;
+    border-radius: .25rem;
+    width: 100%;
+    padding: .5rem .75rem;
+    color: #718096;
+    line-height: 1.25;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+.py-6 .button {
+    display: inline-block;
+    padding: .5rem .75rem;
+    border-radius: .25rem;
+    text-align: center;
+    font-weight: 700;
+}
