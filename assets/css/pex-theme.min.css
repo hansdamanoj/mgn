@@ -7828,3 +7828,11 @@ a.item-label:hover {
     text-align: center;
     font-weight: 700;
 }
+
+.special-contact {
+    width: 25%;
+    position: absolute;
+    top: 172px;
+    right: 0px;
+    background: #f7f7f7bd;
+}
