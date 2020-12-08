@@ -7830,9 +7830,20 @@ a.item-label:hover {
 }
 
 .special-contact {
-    width: 25%;
+    margin: 10%;
+    top: 100px;
+    /* width: 22%;
     position: absolute;
     top: 172px;
-    right: 0px;
-    background: #f7f7f7bd;
+    right: 42px;
+    background: #f7f7f7bd; */
 }
+.banner-subtitle a strong, .contact-title a{
+    color: #efff00;
+}
+.banner-subtitle a{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+
