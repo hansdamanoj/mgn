@@ -7846,4 +7846,9 @@ a.item-label:hover {
     font-weight: bolder;
 }
 
-
+.banner-segment-1{
+    margin-top: 300px;
+}
+.banner-segment-2{
+    margin-top: 120px;
+}
