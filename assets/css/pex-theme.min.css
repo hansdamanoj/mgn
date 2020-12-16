@@ -7852,3 +7852,6 @@ a.item-label:hover {
 .banner-segment-2{
     margin-top: 120px;
 }
+.banner-subtitle a:hover{
+    color: #d7d7e4;
+    }
