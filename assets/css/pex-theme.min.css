@@ -7850,8 +7850,11 @@ a.item-label:hover {
     margin-top: 300px;
 }
 .banner-segment-2{
-    margin-top: 120px;
+    margin-top: 170px;
 }
 .banner-subtitle a:hover{
     color: #d7d7e4;
+    }
+.field-wrap textarea{
+    height: 65px;
     }
